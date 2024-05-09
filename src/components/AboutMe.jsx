@@ -1,9 +1,8 @@
 import React from 'react'
-import profile from '../assets/profile.png'
 
-export default function MyProjects() {
+export default function MyProjects(props) {
 
-    const cv = process.env.REACT_APP_PUBLIC_URL + '/Abhijeet_Mane_CV.pdf';
+const { cv } = props;
 
   return (
     <>

@@ -8,14 +8,18 @@ import EducationAndExperience from './components/EducationAndExperience'
 import MyWork from './components/MyWork'
 import Contact from './components/Contact'
 
+import cvPdf from '../public/Abhijeet_Mane_CV.pdf'
+
 import '../src/css/App.css'
 
 export default function App() {
+  const cvUrl = cvPdf;
+
   return (
     <div style={{cursor: 'url("cursor.png"), auto'}}>
       <Header />
       <Home />
-      <AboutMe />
+      <AboutMe cv={cvUrl}/>
       <MySkills />
       <EducationAndExperience />
       <MyWork />
