@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+    scroll-behavior: smooth;
+    cursor: url('src/assets/mouse cursor.png'),auto;
+    user-select: none;
+    
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+
+
+
