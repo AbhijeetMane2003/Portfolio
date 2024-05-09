@@ -1,12 +1,12 @@
 import React from 'react'
-import cv from '/Abhijeet_Mane_CV.pdf'
+import cv from '../assets/Abhijeet_Mane_CV.pdf'
 import profile from '../assets/profile.png'
 
 export default function MyProjects() {
   return (
     <>
     {/* <div className='absolute h-60 w-60 border-[6px] bg-transparent border-white -left-28 rounded-br-[2.5rem] rotate-45 border-dotted max-md:-left-44 max-sm:hidden max-xl:-left-40 max-xl:rotate-12'></div> */}
-    <div className='flex justify-between flex-col mx-auto w-screen mt-[15vh]' id='AboutMe'>
+    <div className='flex justify-between flex-col mx-auto w-screen mt-[15vh]' id='about'>
         <div className='h-auto z-0 text-center overflow-hidden '>
             <h2 className='flex items-center justify-center font-bold'><span className='text-8xl opacity-[0.1] tracking-widest max-vsm:text-6xl'>RESUME</span> <span className='absolute bg-transparent text-5xl max-vsm:text-3xl'>ABOUT ME</span></h2>
         </div>

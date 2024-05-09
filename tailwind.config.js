@@ -9,10 +9,7 @@ export default {
       screens: {
         'vsm': '460px',
         '3xl': '1800px',
-      },
-      cursor: {
-        default: 'url(../assets/mouse_cursor.png), default'
-      },
+      }
     },
   },
   plugins: [require("daisyui")],

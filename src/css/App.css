@@ -6,7 +6,6 @@
     box-sizing: border-box;
     object-fit: cover;
     scroll-behavior: smooth;
-    cursor: url('src/assets/mouse cursor.png'),auto;
     user-select: none;
     
 }

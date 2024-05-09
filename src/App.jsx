@@ -12,7 +12,7 @@ import '../src/css/App.css'
 
 export default function App() {
   return (
-    <>
+    <div style={{cursor: 'url("cursor.png"), auto'}}>
       <Header />
       <Home />
       <AboutMe />
@@ -20,6 +20,6 @@ export default function App() {
       <EducationAndExperience />
       <MyWork />
       <Contact />
-    </>
+    </div>
   )
 }

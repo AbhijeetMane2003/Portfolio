@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <> 
-      <ReactPlayer url={MainVideo} className='absolute top-0 min-w-[100%] max-md:w-[100vw] max-sm:max-w-[100vw] min-h-[100%] cursor-default' controls={false} loop={true} volume={0} muted={true} playing={true} playsInline/>
+      <ReactPlayer url={MainVideo} className='absolute top-0 min-w-[100%] max-md:w-[100vw] max-sm:max-w-[100vw] min-h-[100%] cursor-default' controls={false} loop={true} muted={true} playing={true} playsInline={true}/>
 
       {/* <img src={profile} className='absolute h-52 w-56' /> */}
 
@@ -19,7 +19,7 @@ export default function Home() {
   modeling and lighting. Skilled in Maya, Blender, UnrealEngine 5 and many more...</p>
             
             <div className='text-right text-6xl 2xl:text-7xl max-sm:mt-5 max-sm:relative max-sm:bottom-10 py-14 bg-transparent animate__animated animate__fadeIn animate__slower animate__repeat-3'>
-              <a href="#AboutMe" className='bg-transparent' style={{ display: 'inline-block', paddingRight: '10%', paddingLeft: '10%' }}>
+              <a href="#about" className='bg-transparent' style={{ display: 'inline-block', paddingRight: '10%', paddingLeft: '10%' }}>
                 <h2 className='bg-transparent'>&darr;</h2>
               </a> 
           </div>
