@@ -62,7 +62,7 @@ export default function Contact() {
                 theme="dark"
             />
 
-            <hr className='z-[1] w-[20%] m-auto opacity-[0.10] mb-14'/>
+            <hr className='z-[1] w-[40%] m-auto opacity-[0.10] mb-14'/>
             <div className='flex justify-between flex-col h-full items-center w-[80%] m-auto mt-[8vh]'>
                 <h2 className='flex items-center justify-center font-bold'><span className='text-8xl opacity-[0.1] tracking-widest max-sm:text-7xl max-vsm:text-6xl'>CONTACT</span> <span className='absolute bg-transparent text-5xl max-sm:text-4xl max-vsm:text-3xl'>GET IN TOUCH</span></h2>
 
@@ -74,7 +74,7 @@ export default function Contact() {
                         </div>
                         <div className='mt-5 max-lg:text-center max-lg:mt-10'>
                             <span className='max-lg:text-3xl font-bold max-vsm:text-2xl'><CiMail className='inline-block mr-1'/> MAIL</span>
-                            <p className='max-lg:text-2xl max-lg:mt-2 max-vsm:text-lg'>abhi007mane@gmail.com</p>
+                            <p className='max-lg:text-2xl max-lg:mt-2 max-vsm:text-lg'>innovate.cg@yahoo.com</p>
                         </div>
                         <div className='my-5 max-lg:text-center max-lg:mt-10'>
                             <span className='max-lg:text-3xl font-bold max-vsm:text-2xl'><IoIosCall className='inline-block mr-1'/> CALL</span>
@@ -103,7 +103,7 @@ export default function Contact() {
                                 <input type="text" name='from_name' autoComplete="off" placeholder='YOUR NAME' required className='w-56 px-5 py-3 outline-none bg-white bg-opacity-[0.1] font-bold  rounded-3xl mx-2 border-none max-lg:text-xl max-lg:w-60 max-sm:w-full max-vsm:text-base'/>
                                 <input type="email" name="from_email" autoComplete="off" placeholder='YOUR EMAIL' required  className='w-56 px-5 py-3 outline-none bg-white bg-opacity-[0.1] font-bold  rounded-3xl mx-2 border-none max-lg:text-xl max-lg:w-60 max-sm:mt-5 max-sm:w-full max-vsm:text-base'/>
                             </div>
-                            <textarea name="message" cols="30" rows="8" placeholder='YOUR MESSAGE' required className='w-full mt-4 ml-2 rounded-3xl font-bold p-5 border-none outline-none bg-white bg-opacity-[0.1] max-lg:text-xl max-sm:w-full max-vsm:text-base'/>
+                            <textarea name="message" cols="30" rows="8" placeholder='YOUR MESSAGE' required className='w-full mt-4 ml-2 rounded-3xl font-bold p-5 border-none outline-none bg-white bg-opacity-[0.1] max-lg:text-xl max-sm:w-full max-vsm:text-base resize-none'/>
                             <input type="submit" value="SEND MESSAGE" className='bg-white font-bold text-black w-40 py-2 mt-4 ml-2 rounded-3xl max-lg:text-xl max-lg:w-52 max-lg:py-3 max-vsm:text-base'/>
                         </form>
                     </div>

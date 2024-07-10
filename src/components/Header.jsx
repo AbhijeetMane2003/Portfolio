@@ -20,7 +20,7 @@ export default function Header() {
                 </ul>
             </div>
             <div className='max-sm:hidden bg-transparent'>
-                <p className='hover:text-gray-400 hover:ease-in-out duration-300 cursor-default bg-transparent'>abhi007mane@gmail.com</p>
+                <p className='hover:text-gray-400 hover:ease-in-out duration-300 cursor-default bg-transparent'>innovate.cg@yahoo.com</p>
             </div>
         </nav>
     </header>

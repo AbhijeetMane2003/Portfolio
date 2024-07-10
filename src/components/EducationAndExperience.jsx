@@ -5,10 +5,7 @@ import { HiAcademicCap } from "react-icons/hi2";
 export default function EducationAndExperience() {
   return (
     <>
-      {/* <div className='absolute h-60 w-60 border-[6px] bg-transparent border-white -left-28 -mt-36  rounded-br-[2.5rem] rotate-12 border-dotted max-md:-left-32 max-sm:hidden max-xl:-left-40'></div> */}
       <div className='flex justify-between flex-col h-full items-center w-screen m-auto mt-[8vh]'>
-            {/* <div className='w-[30rem] opacity-[0.2] m-auto mt-5 h-4 py-8 mb-4 max-sm:w-72 max-md:w-72 max-vsm:hidden'>
-            </div> */}
             <hr className='z-[1] w-[40%] m-auto opacity-[0.10] mb-14'/>
             <h2 className='2xl:text-2xl font-semibold text-center max-3xl:text-3xl max-vsm:text-3xl'>EXPERIENCE & EDUCATION</h2>
 

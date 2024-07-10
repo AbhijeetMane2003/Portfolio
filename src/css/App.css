@@ -10,6 +10,14 @@
     
 }
 
+.custom-cursor {
+    cursor: url("/cursor.png"), default;
+}
+
+.custom-cursor * {
+    cursor: url("/cursor.png"), default !important;
+}
+
 
 ::-webkit-scrollbar {
     width: 0px;

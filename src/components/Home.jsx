@@ -7,9 +7,7 @@ export default function Home() {
 
   return (
     <> 
-      <ReactPlayer url={MainVideo} className='absolute top-0 min-w-[100%] max-md:w-[100vw] max-sm:max-w-[100vw] min-h-[100%] cursor-default' controls={false} loop={true} muted={true} playing={true} playsInline={true}/>
-
-      {/* <img src={profile} className='absolute h-52 w-56' /> */}
+      <ReactPlayer url={MainVideo} className='absolute top-0 min-w-[100%] max-md:w-[100vw] max-sm:max-w-[100vw] min-h-[100%] cursor-default'  controls={false} loop={true} muted={true} playing={true} playsInline={true}/>
 
       <div className='flex justify-between flex-col items-center relative w-[80%] m-auto h-screen scroll-container bg-transparent'>
         <div className='w-full h-auto font-normal text-5xl 2xl:text-6xl max-2xl:text-4xl my-auto max-sm:text-4xl 2xl:leading-[1.15] bg-transparent z-0 cursor-default mb-[5vh]'>
